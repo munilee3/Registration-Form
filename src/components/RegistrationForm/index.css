@@ -1,0 +1,92 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  align-items: center;
+}
+.registration-details {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  color: #ea580c;
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.form {
+  margin-top: 20px;
+}
+.label-name-text {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.first-name-user-input {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'roboto';
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.success-img {
+  width: 130px;
+  height: 130px;
+}
+.successful-msg {
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+.error-msg {
+  margin-top: 0px;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.error {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .registration-container {
+    justify-content: center;
+  }
+  .registration-details {
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+  }
+  .form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .submit-btn {
+    width: auto;
+    align-self: center;
+  }
+}
